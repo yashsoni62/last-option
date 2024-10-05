@@ -1,0 +1,47 @@
+.container {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.container input[type="file"],
+.container input[type="text"],
+.container button {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.container input[type="file"] {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.container input[type="text"] {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.container button {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.container button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
